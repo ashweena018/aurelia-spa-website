@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Aurelia Spa | Booking</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <a class="logo" href="index.html">
+      AURELIA<span>.</span>
+    </a>
+
+    <button id="menu">☰</button>
+
+    <nav id="nav">
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="services.html">Services</a>
+
+      <a href="gallery.html">Gallery</a>
+
+      <a href="booking.html">Booking</a>
+
+      <a href="contact.html">Contact</a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- BOOKING PAGE -->
+  <main class="page">
+
+    <p class="eyebrow">
+      ✦ AURELIA SPA
+    </p>
+
+    <h1>
+      Booking
+    </h1>
+
+    <p class="lead">
+      Discover a calm, modern and personalized wellness experience.
+    </p>
+
+
+    <!-- BOOKING FORM -->
+    <form
+      id="bookingForm"
+      class="form"
+    >
+
+      <input
+        type="text"
+        placeholder="Full name"
+        required
+      >
+
+      <input
+        type="email"
+        placeholder="Email address"
+        required
+      >
+
+      <select required>
+
+        <option value="">
+          Choose treatment
+        </option>
+
+        <option>
+          Deep Relaxation
+        </option>
+
+        <option>
+          Radiance Facial
+        </option>
+
+        <option>
+          Body Renewal
+        </option>
+
+      </select>
+
+      <input
+        type="date"
+        required
+      >
+
+      <button
+        class="btn"
+        type="submit"
+      >
+        Request Appointment
+      </button>
+
+      <p id="message"></p>
+
+    </form>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Aurelia Spa
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
